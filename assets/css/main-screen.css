@@ -1,0 +1,19 @@
+body {
+	background-image: url(https://i0.wp.com/media2.slashfilm.com/slashfilm/wp/wp-content/images/lordoftherings-ring-map.jpg);
+	background-size: auto;
+}
+
+#mainTitle {
+	text-align: center;
+	font-size: 48px;
+	background: rgba(128,128,128, 0.9);
+	font-family: 'Cinzel Decorative', cursive;
+	padding-left: 70px;
+	margin-top: 200px;
+}
+
+ul {
+	background: rgba(128,128,128, 0.5);
+	color: white;
+	margin: 15px;
+}
