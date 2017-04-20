@@ -1,0 +1,125 @@
+body {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/79/90/80/79908092e4aa86ad8819db834c29a45a.jpg);
+	background-size: auto;
+}header {
+	text-align: center;
+	font-size: 48px;
+	background: rgba(128,128,128, 0.9);
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+h1 {
+	position: relative;
+	color: white;
+	background: rgba(128,128,128, 0.7);
+	font-size: 28px;
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+span {
+	margin-left: 45px;
+}
+.hero-name {
+	text-align: center;
+	font-size: 20px;
+	margin: 0px;
+	color: white;
+	padding: 2px;
+	font-family: 'IM Fell Double Pica', serif;
+	
+}
+
+.villain-name {
+	text-align: center;
+	font-size: 20px;
+	margin: 0px;
+	color: white;
+	padding: 2px;
+	font-family: 'IM Fell Double Pica', serif;
+}
+
+.hero-box {
+	width: 100%;
+	height: 130px;
+	border-color: green;
+	border-width: 2px;
+	border-style: solid;
+	background: #733621;
+	margin: 1px;
+}
+
+.hero-box:hover {
+	border-color: blue;
+	border-width: 3px;
+}
+
+
+.villain-box {
+	width: 100%;
+	height: 130px;
+	border-color: red;
+	border-width: 2px;
+	border-style: solid;
+	background: black;
+	margin: 1px;
+}
+
+.villain-box:hover {
+	border-color: purple;
+	border-width: 3px;
+}
+
+#heroBattleground {
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	border-right: 1px;
+	width: 45%;
+	height: 300px;
+	background: rgba(0,0,255,0.5);
+	padding-top: 50px;
+	margin-left: 20px;
+}
+
+#villainBattleground {
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	border-left: 2px;
+	height: 300px;
+	width: 45%;
+	background: rgba(255,0,0,0.5);
+	padding-top: 50px;
+	margin-right: 5px;
+}
+
+.hp {
+	color: white;
+}
+
+img {
+	width: 80%;
+	height: 80px;
+	margin-left: 15px;
+	
+
+}
+
+button {
+	background: #860202;
+	color: white;
+	border: black;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 12px;
+	height: 40px;
+	width: 60%;
+	margin-top: 10px;
+	position: relative;
+	right: 13px;
+}
+
+button:hover {
+	border-color: gold;
+}
